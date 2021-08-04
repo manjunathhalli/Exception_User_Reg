@@ -58,7 +58,7 @@ public class UserRegistrationException {
                 System.out.println("Perfect! #Mobile Num");
                 return true;
             }else {
-                throw new CoustomException("Please Enter a Valid Mobile Num ex:- 90 9533182605");
+                throw new CoustomException("Please Enter a Valid Mobile Num ex:- 90 8073227941");
             }
         }catch (CoustomException ce){
             System.out.printf(ce.getMessage());
@@ -137,7 +137,7 @@ public class UserRegistrationException {
                 System.out.println("Perfect! #Email");
                 return true;
             }else {
-                throw new CoustomException("Please Enter a Valid Email with Only \"example.abc@bl.co.in\" latter");
+                throw new CoustomException("Please Enter a Valid Email with Only \"example.abc@bl.com\" latter");
             }
         }catch (CoustomException ce){
             System.out.printf(ce.getMessage());
